@@ -6,3 +6,4 @@ struct Hero{
     string role;
     string tipe;
 };
+
