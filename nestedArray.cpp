@@ -14,3 +14,30 @@ struct Hero{
     string tipe;
     Skill skill;
 };
+
+int main()
+{
+    Hero arhero[15];
+    
+    for(int i = 0; i < 15; i++)
+    {
+        cout << "Hero ke- " << i+1 << endl;
+        cout << "Masukan nama hero = ";
+       getline(cin, arhero[i].Nama);
+
+        cout << "Masukan jenis role = ";
+        getline(cin, arhero[i].role);
+
+        cout << "Masukan tipe hero =";
+        cin >> arhero[i].tipe;
+        cin.ignore();
+
+       cout << "Masukan skill 1 ";
+       getline(cin, arhero[i].skill.skill1);
+       cout << "Masukan skill 2 ";
+       getline(cin, arhero[i].skill.skill2);
+       cout << "Masukan skill 3 ";
+       getline(cin, arhero[i].skill.skill3);
+    }
+    
+}   
