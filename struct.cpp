@@ -7,3 +7,23 @@ struct Hero{
     string tipe;
 };
 
+int main()
+{
+    Hero arhero;
+
+    cout << "Masukan nama hero = ";
+    cin >> arhero.Nama;
+    cout << "Masukan jenis role = ";
+    cin >> arhero.role;
+    cout << "Masukan tipe hero =";
+    cin >> arhero.tipe;
+    
+    cout << endl;
+    cout << "Tampilkan Hero" << endl;
+    cout << endl;
+
+    cout << "Nama Hero = " << arhero.Nama << endl;
+    cout << "Jenis Role Hero = " << arhero.role << endl;
+    cout << "Tipe Role = " << arhero.tipe << endl;
+
+}
